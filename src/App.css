@@ -1,0 +1,27 @@
+.App h1 {
+  font-family: 'BR Firma', sans-serif;
+  color: #282828;
+}
+.App h3 {
+  font-family: 'BR Firma', sans-serif;
+  color: #282828;
+}
+.App h4 {
+  font-family: 'BR Firma', sans-serif;
+  color: #282828;
+}
+.App p { 
+  font-family: 'BR Firma', sans-serif;
+  color: #282828;
+}
+.App button {
+  font-family: 'BR Firma', sans-serif;
+}
+
+.App ul {
+  font-family: 'BR Firma', sans-serif;
+}
+
+.App li a {
+  font-family: 'BR Firma', sans-serif; 
+}
