@@ -1,4 +1,4 @@
-// Navbar.js 
+// Navbar.js
 
 import { useState } from "react";
 import "../pwetty/Navbar.css";
@@ -6,14 +6,14 @@ import "../pwetty/Navbar.css";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
-  const navLinks = ["Home", "About", "Services", "Portfolio", "Blog"];
+  const navLinks = ["about", "design", "extrastuff", "fun"];
 
   return (
     <nav className="navbar">
       {/* Left side - Logo */}
       <div className="navbar-logo">
         <img
-          src="/logo.png" // Place your logo image in the public folder
+          src="/logo.png" // your logo here
           alt="Logo"
         />
       </div>
@@ -25,7 +25,7 @@ export default function Navbar() {
             {link}
           </a>
         ))}
-        <button className="contact-button">Contact Me</button>
+        <button className="contact-button">contact me</button>
       </div>
 
       {/* Mobile Menu Button */}

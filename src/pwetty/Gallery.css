@@ -1,0 +1,17 @@
+/* GalleryGrind.css */
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* automatic fit */
+    gap: 2vw;
+    padding: 4vh 4vw;
+  }
+  
+  /* you can also tweak this for smaller screens if you want even more control */
+  @media (max-width: 768px) {
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 4vw;
+    }
+  }
+  

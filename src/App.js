@@ -8,9 +8,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar/>
-        <p>
-          hi! i'm amanda zhu. 
-        </p>
 
       </header>
     </div>
